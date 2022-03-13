@@ -13,3 +13,8 @@ a
 span{
   font-size: 24px;
 }
+
+header
+p{
+  font-weight: bold;
+}
