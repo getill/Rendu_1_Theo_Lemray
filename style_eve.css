@@ -1,0 +1,14 @@
+a
+span{
+  font-size: 24px;
+  color: white;
+}
+
+span{
+  color: white;
+}
+
+body{
+  background-image: url(/resources/tiled_geo_dark.png);
+  height: 100vh;
+}
