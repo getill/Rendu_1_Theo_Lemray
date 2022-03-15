@@ -4,11 +4,31 @@ span{
   color: white;
 }
 
+h1{
+  color: white;
+}
+
 span{
   color: white;
+}
+
+header{
+  background: url(/resources/Medium_WW2117499.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  height: 100vh;
 }
 
 body{
   background-image: url(/resources/tiled_geo_dark.png);
   height: 100vh;
+}
+
+header
+p{
+  font-weight: bold;
+}
+
+ul
+a{
+  font-weight: bold;
 }
