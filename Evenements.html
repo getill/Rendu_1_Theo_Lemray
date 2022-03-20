@@ -13,9 +13,9 @@
   <title>Nos prochains événements</title>
 </head>
 
-<body>
+<body class="text-light">
 
-  <header class= "p-3 bg-light text-dark">
+  <header class= "p-3">
     <div class="container">
       <div class="row">
         <nav class="col navbar navbar-dark navbar-expand-lg">
@@ -29,7 +29,7 @@
           <div id="navbarNav" class="collapse navbar-collapse">
             <ul class="navbar-nav">
               <li class="nav-item active">
-                <a href="#" class="nav-link px-2 text-light">Actions</a>
+                <a href="index.html" class="nav-link px-2 text-light">Accueil</a>
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-link px-2 text-light">À propos</a>
@@ -45,13 +45,88 @@
           </div>
         </nav>
       </div>
-      <h1 class="text-center mt-5 mb-5">J-5 avant Earth Hour : le WWF réinvente son événement de mobilisation citoyenne avec une édition 100% digitale</h1>
+      <!-- <h1 class="text-center mt-5 mb-5 fw-bold">J-5 avant Earth Hour</h1> -->
     </div>
+
+    <div class="position-absolute bottom-0 start-50 translate-middle-x">
+      <i class="fas fa-thin fa-angle-down fa-3x" style="color: white;"></i>
+    </div>
+    
   </header>
 
-  <div class="container">
+  <div class="container bg-dark text-light">
+    <h2 class="text-center pt-5 mt-5 pb-3 mb-3 fs-1 fw-bold">Le WWF réinvente son événement 
+      de mobilisation citoyenne avec une édition 100% digitale</h2>
+    <p> <strong>Earth Hour, c’est la plus grande mobilisation citoyenne pour la planète organisée 
+      par le WWF ! </strong> À cette occasion, plusieurs millions de personnes éteignent 
+      leurs lumières et, de Singapour à Honolulu en passant par Sydney, Londres, Paris ou New York, 
+      des milliers de monuments iconiques plongent dans le noir. <br>
+    </p>
+
+    <p><strong> Cette 16ème édition d’Earth Hour mettra en lumière les gestes citoyens 
+    pour la planète.</strong></p>
+      
+    <p> Chaque année, nous sommes de plus en plus nombreux·ses à nous sentir concerné·e·s par 
+    la protection de l’environnement. Nous sommes de plus en plus nombreux·ses à vouloir agir, 
+    mais il n’est pas toujours facile de savoir comment, ni si nos gestes changeront quelque chose. 
+    C’est le moment de nous unir et de montrer notre détermination à construire un avenir 
+    plus durable. Plus nous serons nombreux·ses à nous mobiliser, 
+    plus nos actions auront de l’impact !</p> 
+      
+    <p> <strong>Le 26 mars à 20h30, nous serons des millions 
+    à nous mobiliser sur les réseaux sociaux et chez nous.</strong> 
+    Rejoins-nous et inscris-toi pour y participer !</p> 
+      
+    <div class="d-grid col-6 mx-auto pt-4 pb-4 mb-4">
+      <a class="btn btn-warning" data-toggle="collapse" href="#collapse" role="button" 
+      aria-expanded="false" aria-controls="collapse"  type="button">Inscription</a>
+    </div>
+
+
+    <div class="collapse" id="collapse">
+      <form class="pb-3">
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label" >Nom complet</label>
+          <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Marco Lambertini">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label" >Adresse email</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" 
+          placeholder="wwf@gmail.com">
+          <div id="emailHelp" class="form-text">Nous partagerons en aucun cas votre adresse mail</div>
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Être informé des prochaines actualités WWF</label>
+        </div>
+        <button type="submit" class="btn btn-primary">S'inscrire</button>
+      </form>
+    </div>
+
+
+    <h2 class="text-center">Actualités</h2>
     
+    <div class="text-center pb-5">
+      <i class="fas fa-solid fa-minus fa-2x" style="color: white;"></i>
+    </div>
+
+    <div class="row justify-content-center">
+      <p class="col-3 col-md-3">28.06.2022</p>
+      <p class="col-8 col-md-3"> <strong> Alerte du GIEC sur l'impact dévastateur du changement climatique : 
+        le WWF appelle les dirigeants à mettre en place des mesures exceptionnelles</strong>
+        Face au constat sans appel du nouveau rapport du GIEC, comment réagir en France ?</p>
+    </div>
+    <div class="row justify-content-center">
+      <p class="col-3 col-md-3">22.09.2022</p>
+      <p class="col-8 col-md-3"> <strong>Stratégie nationale pour la biodiversité : lettre ouverte de 13 
+      associations au Président</strong> 
+      13 organisations demandent au Président de la République de ne pas précipiter la publication
+      de la 3e stratégie nationale pour la biodiversité, projet qui manque encore d’ambitions et de 
+      moyens.</p>
+    </div>
   </div>
+
+  
 
   <div class="container">
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
