@@ -1,7 +1,12 @@
 header{
-  background: url(/resources/WWF-ballon-2-kopie-Kopie-DARKER.png) no-repeat 50% 50%;
+  background: url(/resources/pingus-wwf-CROPPED.png) no-repeat 50% 0%;
   background-size: cover;
   height: 100vh;
+}
+
+nav{
+  background-image: url(/resources/tiled_geo_dark.png);
+  height: 10%;
 }
 
 ul

@@ -23,6 +23,11 @@ body{
   height: 100vh;
 }
 
+nav{
+  background-image: url(/resources/tiled_geo_dark.png);
+  height: 10%;
+}
+
 header
 p{
   font-weight: bold;
